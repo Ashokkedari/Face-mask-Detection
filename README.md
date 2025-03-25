@@ -68,13 +68,13 @@ Press Q to exit the webcam window.
 📊 Dataset Information
 The dataset contains three categories:
 
-With Mask (dataset/with_mask/)
+   1. With Mask (dataset/with_mask/)
 
-Without Mask (dataset/without_mask/)
+   2. Without Mask (dataset/without_mask/)
 
-Improper Mask (dataset/improper_mask/)
+   3. Improper Mask (dataset/improper_mask/)
 
-You can download public datasets from: 🔗 Kaggle - Face Mask Dataset
+replace the dataset in the corresponding folders in dataset main folder
 
 💡 Future Improvements
 🔹 Improve face detection with DNN-based models (e.g., SSD, YOLO)
