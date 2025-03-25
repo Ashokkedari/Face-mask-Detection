@@ -32,26 +32,31 @@ FaceMaskDetection/
 ### **1️⃣ Install Dependencies**
 Make sure you have **Python 3.8+** installed.  
 Then, install the required libraries:
-```bash
+```
 pip install -r requirements.txt
-
+```
 requirements.txt
-
+```
 torch
 torchvision
 opencv-python
 pillow
 numpy
-
+```
 2️⃣ Train the Model
 If you don’t have a trained model yet, run:
+```
 python train.py
+```
 This will train the CNN on the dataset and save the model as:
+```
 model/mask_detector.pth
-
+```
 3️⃣ Run the Mask Detection Script
 To start real-time mask detection via webcam, run:
-   python mask_detect.py
+```
+python mask_detect.py
+```
 Press Q to exit the webcam window.
 
 🎯 Features
