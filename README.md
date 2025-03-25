@@ -60,6 +60,10 @@ python mask_detect.py
 ```
 Press Q to exit the webcam window.
 
+
+   ---
+
+   
 🎯 Features
 
 A. Deep Learning-based Mask Classification 
