@@ -15,16 +15,16 @@ The model is then used for **real-time detection via webcam input**.
 ## 📂 Project Structure
 ```
 FaceMaskDetection/
-├── dataset/ # Dataset folder 
-│ ├── with_mask/ # Images of people wearing masks 
-│ ├── without_mask/ # Images of people without masks 
-│ ├── improper_mask/ # Images of people wearing masks incorrectly 
+├── dataset/ 
+│ ├── with_mask/
+│ ├── without_mask/
+│ ├── improper_mask/ 
 ├──scripts/
-│ ├── train.py # CNN Model Definition, Train the CNN Model
-│ ├── mask_detect.py # Real-time mask detection script (Webcam)
-├── model/mask_detector.pth # Trained model weights
-├── requirements.txt # List of dependencies 
-├── README.md # Documentation (You are here)
+│ ├── train.py                # CNN Model Definition, Train the CNN Model
+│ ├── mask_detect.py          # Real-time mask detection script (Webcam)
+├── model/mask_detector.pth 
+├── requirements.txt
+├── README.md
 ```
 ---
 
