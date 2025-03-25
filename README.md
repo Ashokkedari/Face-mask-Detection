@@ -13,6 +13,7 @@ The model is then used for **real-time detection via webcam input**.
 ---
 
 ## 📂 Project Structure
+```
 FaceMaskDetection/
 ├── dataset/ # Dataset folder 
 │ ├── with_mask/ # Images of people wearing masks 
@@ -24,7 +25,7 @@ FaceMaskDetection/
 ├── model/mask_detector.pth # Trained model weights
 ├── requirements.txt # List of dependencies 
 ├── README.md # Documentation (You are here)
-
+```
 ---
 
 ## 🔧 Installation & Setup
