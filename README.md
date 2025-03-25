@@ -59,13 +59,13 @@ To start real-time mask detection via webcam, run:
 python mask_detect.py
 ```
 Press Q to exit the webcam window.
-
+---
 🎯 Features
    A. Deep Learning-based Mask Classification 
    B. Real-time Face Detection with OpenCV 
    C. Works on CPU & GPU (CUDA enabled) 
    D. Fast Processing with Haar Cascade Classifier
-
+---
 📊 Dataset Information
 The dataset contains three categories:
 
@@ -76,12 +76,12 @@ The dataset contains three categories:
    3. Improper Mask (dataset/improper_mask/)
 
 replace data into the corresponding folders
-
+---
 💡 Future Improvements
    🔹 Improve face detection with DNN-based models (e.g., SSD, YOLO)
    🔹 Optimize CNN for better accuracy & faster inference
    🔹 Deploy as a Flask API or Mobile App
-   
+---
 📝 Author
 Developed by Ashok Kedari
 
