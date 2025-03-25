@@ -75,7 +75,7 @@ The dataset contains three categories:
 
    3. Improper Mask (dataset/improper_mask/)
 
-replace the dataset in the corresponding folders in dataset main folder
+replace data into the corresponding folders
 
 💡 Future Improvements
 🔹 Improve face detection with DNN-based models (e.g., SSD, YOLO)
