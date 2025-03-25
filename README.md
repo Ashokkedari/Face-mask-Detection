@@ -1,7 +1,3 @@
-Face Mask Detection using PyTorch & OpenCV
-markdown
-Copy
-Edit
 # Face Mask Detection
 
 ## 📌 Overview
@@ -17,11 +13,17 @@ The model is then used for **real-time detection via webcam input**.
 ---
 
 ## 📂 Project Structure
-FaceMaskDetection/ ├── dataset/ # Dataset folder │ ├── with_mask/ # Images of people wearing masks │ ├── without_mask/ # Images of people without masks │ ├── improper_mask/ # Images of people wearing masks incorrectly │ ├── train_labels.csv # Labels for training data (if applicable) │ ├── model.py # CNN Model Definition (PyTorch) ├── train.py # Train the CNN Model ├── mask_detect.py # Real-time mask detection script (Webcam) ├── model/mask_detector.pth # Trained model weights │ ├── requirements.txt # List of dependencies └── README.md # Documentation (You are here)
-
-yaml
-Copy
-Edit
+FaceMaskDetection/
+├── dataset/ # Dataset folder 
+│ ├── with_mask/ # Images of people wearing masks 
+│ ├── without_mask/ # Images of people without masks 
+│ ├── improper_mask/ # Images of people wearing masks incorrectly 
+├──scripts/
+│ ├── train.py # CNN Model Definition, Train the CNN Model
+│ ├── mask_detect.py # Real-time mask detection script (Webcam)
+├── model/mask_detector.pth # Trained model weights
+├── requirements.txt # List of dependencies 
+├── README.md # Documentation (You are here)
 
 ---
 
@@ -32,36 +34,24 @@ Make sure you have **Python 3.8+** installed.
 Then, install the required libraries:
 ```bash
 pip install -r requirements.txt
+
 requirements.txt
 
-text
-Copy
-Edit
 torch
 torchvision
 opencv-python
 pillow
 numpy
+
 2️⃣ Train the Model
 If you don’t have a trained model yet, run:
-
-bash
-Copy
-Edit
 python train.py
 This will train the CNN on the dataset and save the model as:
-
-bash
-Copy
-Edit
 model/mask_detector.pth
+
 3️⃣ Run the Mask Detection Script
 To start real-time mask detection via webcam, run:
-
-bash
-Copy
-Edit
-python mask_detect.py
+   python mask_detect.py
 Press Q to exit the webcam window.
 
 🎯 Features
@@ -86,28 +76,9 @@ You can download public datasets from: 🔗 Kaggle - Face Mask Dataset
 🔹 Optimize CNN for better accuracy & faster inference
 🔹 Deploy as a Flask API or Mobile App
 
-📌 License
-This project is open-source and available under the MIT License.
-
 📝 Author
-Developed by [Your Name]
-📧 Contact: your.email@example.com
+Developed by Ashok Kedari
 
-🚀 Happy Coding! 😃
-
-yaml
-Copy
-Edit
-
----
-
-### **🎯 Why This README is Helpful?**
-✅ **Well-structured with installation & usage steps**  
-✅ **Clear dataset & project structure**  
-✅ **Includes future improvements & license**  
-
-Now your project is **well-documented** and **ready for GitHub!** 🚀  
-Let me know if you need modifications! 🎯
 
 
 
