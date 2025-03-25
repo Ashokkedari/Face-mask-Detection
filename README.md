@@ -61,10 +61,11 @@ python mask_detect.py
 Press Q to exit the webcam window.
 
 🎯 Features
-✅ Deep Learning-based Mask Classification
-✅ Real-time Face Detection with OpenCV
-✅ Works on CPU & GPU (CUDA enabled)
-✅ Fast Processing with Haar Cascade Classifier
+
+** ✅ Deep Learning-based Mask Classification **
+** ✅ Real-time Face Detection with OpenCV **
+** ✅ Works on CPU & GPU (CUDA enabled) **
+** ✅ Fast Processing with Haar Cascade Classifier**
 
 📊 Dataset Information
 The dataset contains three categories:
