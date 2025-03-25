@@ -62,13 +62,17 @@ Press Q to exit the webcam window.
 
 🎯 Features
 
-    A. Deep Learning-based Mask Classification 
-      
-    B. Real-time Face Detection with OpenCV 
-      
-    C. Works on CPU & GPU (CUDA enabled) 
-      
-    D. Fast Processing with Haar Cascade Classifier
+A. Deep Learning-based Mask Classification 
+                                  
+B. Real-time Face Detection with OpenCV 
+                                  
+C. Works on CPU & GPU (CUDA enabled) 
+                                  
+D. Fast Processing with Haar Cascade Classifier
+
+
+
+
 
    ---
 
